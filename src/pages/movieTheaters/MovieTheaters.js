@@ -20,13 +20,11 @@ const MovieTheaters = () => {
     useEffect(() => {
         const init = async()=> {
             let response = await getAllTheaters();
-            console.log(response);
             setTheaterDetails(response.data.filter((data) => {
                 return data.movies.includes(selectedMovieId);
             })
             )
             response = await getMovie(selectedMovieId);
-            console.log("##",response)
             setMovieDetails(response.data);
             setPageLoading(true);
 

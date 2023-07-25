@@ -30,7 +30,6 @@ export const signUp = async (user) => {
 
   try {
     const response = await AxiosInstance.post(URL, user);
-    console.log("EEE",response,user);
     return response;
   } catch (error) {
       console.log(error);

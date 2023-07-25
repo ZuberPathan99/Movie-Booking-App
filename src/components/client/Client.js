@@ -97,20 +97,11 @@ const counterInfo = useState({});
     }
 
 
-
-
-
-
-
-
-
 const clearState=()=>{
     showUpdateTheaterModal(false);
     showAddTheaterModal(false);
     setTempTheaterDetail({});
 }
-
-
 
 return (
     <>

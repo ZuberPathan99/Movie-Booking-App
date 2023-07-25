@@ -52,7 +52,6 @@ function Login() {
       userType,
       password,
     };
-    console.log(data);
     if (!validateData(data)) return false;
 
     const response = await signUp(data);
