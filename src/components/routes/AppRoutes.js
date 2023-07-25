@@ -9,7 +9,8 @@ import Auth from "../../pages/auth/Auth";
 import Booking from '../../pages/booking/Booking'
 import Unauthorized from "../../util/Unauthorized";
 import Notfound from "../../util/Notfound";
-import RequireAuth from "../../util/RequireAuth"
+import RequireAuth from "../../util/RequireAuth";
+
 const ROLES = {
   'CUSTOMER': 'CUSTOMER',
   'ADMIN': 'ADMIN',

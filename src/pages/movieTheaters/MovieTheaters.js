@@ -29,6 +29,8 @@ const MovieTheaters = () => {
             console.log("##",response)
             setMovieDetails(response.data);
             setPageLoading(true);
+
+            window.scrollTo(0, 0);
         }
         init();
       }, [selectedMovieId]);
